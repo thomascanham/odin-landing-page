@@ -136,5 +136,23 @@ section {
     text-align: center;
 }
 
+.quote {
+    background-color: var(--gray);
+}
+
+.quote blockquote {
+    color: var(--dark);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote cite {
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
